@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.div2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 0 2px white, 0.1em 0.1em 1em grey;
+}
+.div3 {
+  height: 100%;
+  background-image: url(https://wallpapercave.com/wp/wp5194625.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px 40px 40px ;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.div4{
+  width: 50%;
+}
+
+.img,.welcome,.lee{
+  margin: 0;
+}
+.div3 img {margin-top: 10px;
+  width: 70px;
+}
+.div p{
+  width:100%;
+}
+.welcome {
+  font-size: 30px;
+  color: white;
+}
+.lee{
+  color: white;
+}
+.div4 {
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+}
+.p1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(13, 13, 88);
+}
+
+.input1 {
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  outline: 2px solid rgb(148, 148, 148);
+  color: rgb(148, 148, 148);
+  width: 100%;
+}
+.textinput {
+  position: relative;
+  padding-top: 10px;
+  width: 230px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.input-label {
+  position: absolute;
+  color: transparent;
+  top: 0.5rem;
+  left: 0.5rem;
+  cursor: text;
+  transition: top 200ms, left 200ms;
+}
+.input1:focus ~ .input-label {
+  top: -0.7em;
+  font-size: 12px;
+  background-color: white;
+  padding: 4px;
+  color: rgb(148, 148, 148);
+}
+.textinput1 {
+  position: relative;
+  width: 280px;
+  padding-top: 25px;
+}
+.input2 {
+  padding: 10px;
+  border: none;
+  outline: 2px solid rgb(148, 148, 148);
+  background-color: transparent;
+  width: 100%;
+}
+.input-label2 {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  cursor: text;
+  transition: top 200ms, left 200ms;
+  color: transparent;
+}
+.forget {
+  margin-top: 20px;
+  color: rgb(148, 148, 148);
+  text-decoration: none;
+}
+.forget a {
+  color: rgb(148, 148, 148);
+  text-decoration: none;
+}
+.input2:focus ~ .input-label2 {
+  top: -0.7em;
+  padding: 4px;
+  background-color: goldenrod;
+  color: rgb(148, 148, 148);
+}
+.logindiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  margin-top: 20px;
+}
+.loginbutton {
+  height: 40px;
+  width: 90px;
+  background-color: blue;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 40px;
+  color: white;
+  text-decoration: none;
+}
+.createacc {
+  color: rgb(148, 148, 148);
+  text-decoration: none;
+}
+.sso {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 40px;
+  align-items: center;
+}
+.google {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  width: 70px;
+  justify-content: center;
+  border: 0.1px solid;
+  border-radius: 40px;
+  border-color: rgb(148, 148, 148);
+  text-decoration: none;
+}
+.google img {
+  height: 35px;
+}
+.loginwith {
+  color: rgb(148, 148, 148);
+}
+
+.div4 form{
+  width: 100%;
+}
+.div4 form .textinput .input1 a .logindiv{
+  width: 100%;
+}
